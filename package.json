@@ -1,0 +1,29 @@
+{
+  "name": "get-md2-img-url",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "main": "yarn ts src/main.ts",
+    "ts": "ts-node -P tsconfig.common.json"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "prettier": "^2.5.1",
+    "remark": "^14.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "glob": "^7.2.0",
+    "node-fetch": "^3.2.0",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "remark-stringify": "^10.0.2",
+    "remark-toc": "^8.0.1",
+    "tslib": "^2.3.1",
+    "url-join": "^4.0.1"
+  }
+}

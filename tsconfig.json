@@ -1,0 +1,35 @@
+{
+  "extends": "ts-node/node12/tsconfig.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "transpiler": "ts-node/transpilers/swc-experimental"
+  },
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "target": "esnext",
+    "lib": ["ES2020"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "react",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "keyofStringsOnly": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "resolveJsonModule": true,
+    "outDir": "./lib",
+    "baseUrl": "."
+  }
+}
